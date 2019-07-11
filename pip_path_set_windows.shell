@@ -1,0 +1,2 @@
+// if after installing pip it gives unknown command error, do
+set PATH=%PATH%;C:\Users\<username>\AppData\Local\Programs\Python\Python37-32\Scripts
