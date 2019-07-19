@@ -1,0 +1,2 @@
+# using Pandoc to convert docx to markdown while also extracting the images
+pandoc -f docx -t markdown  --extract-media="." -o "file.md" "../$1.docx"
