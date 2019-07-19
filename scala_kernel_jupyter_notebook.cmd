@@ -1,11 +1,11 @@
-// List all installed kernels, you can run the following command:
+:: List all installed kernels, you can run the following command:
 jupyter kernelspec list
 
-// Install spylon kernel
+:: Install spylon kernel
 python -m pip install spylon-kernel
 
-// create a kernel spec
+:: create a kernel spec
 python -m spylon_kernel install
 
-// start jupyter notebook 
+:: start jupyter notebook 
 jupyter notebook
