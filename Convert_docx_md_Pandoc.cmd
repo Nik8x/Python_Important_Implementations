@@ -1,4 +1,6 @@
+:: Install Pandoc on windows first
 :: using Pandoc to convert docx to markdown while also extracting the images
+
 @echo off
 @echo "----using Pandoc to convert docx to markdown while also extracting the images----"
 set /p filename="Please give filename path: "
