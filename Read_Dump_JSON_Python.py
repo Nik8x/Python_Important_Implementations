@@ -9,3 +9,6 @@ f = open('my_dict.json')
 my_dict = json.load(f)
 # when finished, close the file
 f.close()
+
+with open('my_dict.json', 'r') as f:
+    my_dict = f.read()
